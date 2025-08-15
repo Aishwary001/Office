@@ -1,10 +1,10 @@
 "use client";
 
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { NotificationProvider } from "@/contexts/NotificationContext";
-import { LoggingProvider } from "@/contexts/LoggingContext";
-import { AuthProvider } from "@/contexts/AuthContext";
-import { SessionManager } from "@/components/SessionManager";
+import { NotificationProvider } from "../contexts/NotificationContext";
+import { LoggingProvider } from "../contexts/LoggingContext";
+import { AuthProvider } from "..//contexts/AuthContext";
+import { SessionManager } from "../components/SessionManager";
 
 const queryClient = new QueryClient({
   defaultOptions: {
