@@ -78,6 +78,7 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
       const token = localStorage.getItem('token');
       if (token) {
         try {
+          console.log("url" , process.env.NEXT_PUBLIC_BACKEND_URL)
           const res = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/api/auth/me`, {
             headers: {
               'Authorization': `Bearer ${token}`,

@@ -35,6 +35,7 @@ export default function LandingPage() {
       localStorage.setItem('token', response.token);
       localStorage.setItem('user', JSON.stringify(response.user));
       
+      
       // Redirect to the user dashboard for guests
       router.push('/user/dashboard');
     } catch (error) {
