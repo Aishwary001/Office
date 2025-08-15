@@ -3,7 +3,7 @@
 import { useRouter } from 'next/navigation';
 import { FiArrowRight, FiUser, FiX, FiCheckCircle, FiFileText, FiUsers, FiShield } from 'react-icons/fi';
 import { useState } from 'react';
-import { apiRequest } from '@/lib/api';
+import { apiRequest } from '../lib/api';
 
 interface LoginResponse {
   token: string;
