@@ -19,11 +19,11 @@ const corsOptions = {
   origin: [
     'http://localhost:3500',
     'http://localhost:3001', 
-    'https://regoffice.onrender.com/',
+    'https://regoffice.onrender.com',
     'https://office-registration-sigma.vercel.app',
     'https://office-registration-frontend.vercel.app',
     'https://office-registration-frontend-*.vercel.app', // Allow preview deployments
-    'https://office-registration-sigma-*.vercel.app' // Allow preview deployments for actual frontend
+    'https://office-registration-sigma-*.vercel.app', // Allow preview deployments for actual 
   ],
   credentials: true,
   optionsSuccessStatus: 200
